@@ -133,11 +133,11 @@
 @keyframes buttom-border {
   25%{
     bottom:-10px;
-    right: 90%;
+    right: 75%;
   }
   50%{
     bottom: 60px;
-    right:90%
+    right:75%
   }
   75%{
     bottom:60px;
