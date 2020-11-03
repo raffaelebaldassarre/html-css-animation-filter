@@ -57,3 +57,34 @@
   filter: grayscale(0.6) sepia(0.5);
   transform: scale(1.5);
 }
+.ex-10-icon{
+  animation: reverse-loading 1s linear infinite;
+}
+@keyframes reverse-loading {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.ex-11-icon:hover{
+  animation: bug-loading 2s linear;
+}
+@keyframes bug-loading {
+  0%{
+    transform: rotate(0deg);
+  }
+  95%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+.ex-12-button:hover{
+  text-decoration: underline;
+}
+.ex-13-button:hover{
+  text-decoration: underline;
+}
